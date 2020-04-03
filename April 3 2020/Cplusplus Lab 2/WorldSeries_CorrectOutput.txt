@@ -1,0 +1,29 @@
+Anaheim Angels 1
+Arizona Diamondbacks 1
+Atlanta Braves 1
+Baltimore Orioles 3
+Boston Americans 0
+Boston Braves 0
+Boston Red Sox 3
+Brooklyn Dodgers 1
+Chicago Cubs 0
+Chicago White Sox 1
+Cincinnati Reds 3
+Cleveland Indians 0
+Detroit Tigers 2
+Florida Marlins 2
+Kansas City Royals 1
+Los Angeles Dodgers 5
+Milwaukee Braves 1
+Minnesota Twins 2
+New York Giants 1
+New York Mets 2
+New York Yankees 15
+Oakland Athletics 4
+Philadelphia Athletics 0
+Philadelphia Phillies 2
+Pittsburgh Pirates 3
+San Francisco Giants 3
+St. Louis Cardinals 5
+Toronto Blue Jays 2
+Washington Senators 0
