@@ -15,11 +15,18 @@ using namespace std;
 // TASK:  Fill in code to define a structure called taxPayer that has three 
 // members:  taxRate, income, and taxes -- each of type float
 
+const int SIZE = 2;
+
+struct taxPayer{
+	float taxRate, income, taxes;
+};
 
 int main()
 {
    // TASK:  Fill in code to declare an array named citizen which holds
    // 5 taxPayers structures
+
+	taxPayer citizens[SIZE];
 
 	cout << fixed << showpoint << setprecision(2);
 
@@ -27,22 +34,25 @@ int main()
 	cout << endl << endl << endl;
 
 	// TASK:  Fill in the ??? below.
-	for(int count = 0;count < 5;count++)
+	for(int count = 0;count < SIZE; count++)
 	{
 
 		cout << "Enter this year's income for tax payer " << (count + 1);
 		cout << ": ";
 		
 		// TASK:  Fill in code to read in the income to the appropriate place
+		cin >> citizens[count].income;
 
 		cout << "Enter the tax rate for tax payer # " << (count + 1);
 		cout << ": ";
 		
 		// TASK:  Fill in code to read in the tax rate to the appropriate place
+		cin >> citizens[count].taxRate;
 
 		// TASK:  Fill in code to compute the taxes for the citizen and store it
 		// in the appropriate place
 
+		citizens[count].taxes = citizens[count].taxRate * citizens[count].income;
 	   
 		cout << endl;
 	}
@@ -51,10 +61,12 @@ int main()
 
 	// TASK:  Fill in code for the first line of a loop that will output the 
 	// tax information
+	for(int index = 0;index < SIZE; index++)
 	{
 		//TASK:  Fill in the ????'s to print out the taxes of the i-th citizen here.
-		cout << "Tax Payer # " << (index + 1) << ": " << "$ "
-			 << "????" << endl;
+		cout << "Tax Payer # " << (index + 1) << ": " << "$ " << citizens[index].income << endl;
+		cout << "\tRate: " << citizens[index].taxRate << endl;
+		cout << "\tTaxes Owed: " << citizens[index].taxes << endl;
 	}
 
 	return 0;
