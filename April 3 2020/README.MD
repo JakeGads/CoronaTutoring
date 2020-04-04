@@ -1,0 +1,6 @@
+- CS 122 (C++, Object Oriented Programming)
+	- Did both Chapter 7 Labs
+	- Attendance
+		- Joe Traglia
+- CS 211 (Java, Application Dev)
+	- No one showed up hence no work was done
