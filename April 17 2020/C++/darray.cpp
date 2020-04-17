@@ -8,7 +8,6 @@ using namespace std;
 
 
 int main()
-
 {
 
     /* TASK: INITIALIZE monthSales TO A NULLPTR*/
@@ -32,7 +31,7 @@ int main()
     //TASK: It is possible that the memory has not been allocated correctly. So for example, 
     // perhaps enough memory is not available to allocate space for monthlySales.  
     // If everything went smoothly, the pointer (here monthSales) will not be null anymore.  
-    // Otherwise, the pointer will still equall nullptr.  Complete the code
+    // Otherwise, the pointer will still equal nullptr.  Complete the code
     // below so that if memory has not been allocated correctly, an error message 
     //prints out and we return "1" from main.  ("1" indicates an error has occurred.)
 
@@ -51,7 +50,7 @@ int main()
             << ":";
 
         // TASK: Fill in code to bring sales into an element of the array
-        monthSales[numOfSales];
+        cin >> monthSales[count];
     }
 
     for (count = 0; count < numOfSales; count++)
