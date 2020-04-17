@@ -49,7 +49,7 @@ int main()
     for (int count = 0; count < num_scores; count++)
     {
         cout << "Please enter a name then a score (separated by a space):  " << endl;
-        cin >> (scores + count)->name >> (scores + count)->grade;
+        cin >> (scores + count)->name >> (scores + count)->grade; // equiv to scores[count].name scores[count].grade
     }
 
     //TASK:  After you write the findMax function below, call it. 
@@ -87,10 +87,11 @@ Test* findMax(Test* scores, int size)
         //and to compare it to the current grade in the scores 
         //array.  Update the value of maxTest if necessary.
 
-        if (maxTest->grade < scores[i].grade)
+        if (maxTest->grade < (scores + i)->grade)
         {
-            cout << "we here kings" << endl;
-            maxTest = &scores[i];
+            maxTest->grade = (scores + i)->grade;
+            maxTest->name = (scores + i)->name;
+            
         }
     }
 
