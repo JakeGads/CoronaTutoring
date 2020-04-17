@@ -5,8 +5,7 @@ The class should have a method that returns the average of the test scores.
 if * any test score in the array is negative or greater than 100, the class should throw an * IllegalArgumentException. 
 Demonstrate the class in a program. 
 
-#2. Write an exception class named InvalidTestScore. 
-Modify the TestScores class you wrote * in Programming Challenge 1 so it throws an InvalidTestScore exception if any of the test * scores in the array are invalid. 
+
 */
 
 public class TestScores{
